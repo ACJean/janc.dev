@@ -95,6 +95,16 @@ body {
     color: #bebebe;
 }
 
+.btn[disabled] {
+    color: #bebebe;
+    text-decoration: line-through;
+}
+
+.btn[disabled]:hover {
+    color: #bebebe;
+    text-decoration: line-through;
+}
+
 .btn-sm {
     padding: 5px 15px;
     font-size: 8px;
@@ -144,6 +154,10 @@ body {
 
 .btn--nav:hover {
     color: #a28769;
+}
+
+.btn--nav[disabled]:hover {
+    border: 3px solid #202020;
 }
 
 .main {
@@ -229,6 +243,12 @@ body {
 
 .card__title-link:hover {
     color: #fff;
+}
+
+.card__title-no-records {
+    color: #bebebe;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .card--1 {
@@ -401,24 +421,20 @@ body {
 }
 
 .menu__body {
+    width: 100%;
     background-color: #202020;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .menu__list {
     width: 100%;
-    height: 100%;
-    margin: 4px 8px;
+    height: 2rem;
     list-style: none;
     letter-spacing: 1px;
     font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    padding: 1rem;
 }
 
 .menu__item {
@@ -428,18 +444,6 @@ body {
 
 .menu__item:nth-of-type(1n+7) {
     display: none;
-}
-
-.menu__item::after {
-    position: absolute;
-    content: '';
-    background-color: rgba(234, 227, 181, 0.6);
-    border-radius: 5px;
-    rotate: calc(1deg);
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
 }
 
 .card__header--link {
