@@ -8,211 +8,174 @@
     <link rel="stylesheet" href="resources/css/cards.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container container">
-            <div class="header__descriptor">
-                <h1 class="header__title">janc<span class="color--cream">.</span>dev<span class="cursor">_</span></h1>
-                <p class="header__description">¡Hola! Soy Jean, desarrollador de software.</p>
-            </div>
+    <header class="navigator">
+        <div class="navigator__brand">
+            <span class="funtion-color">.dev()</span>
         </div>
-    </header>
-    <aside class="nav-container">
-        <nav class="nav-bar">
-            <ul class="nav-bar__list">
-                <li class="nav-bar__item"><button type="button" class="btn btn-md btn--nav" disabled>POSTS</a></li>
-                <li class="nav-bar__item"><button type="button" class="btn btn-md btn--nav" disabled>PROYECTOS</a></li>
+        <nav class="navigator__group">
+            <ul class="navigator__elements">
+                <li class="navigator__element">
+                    <a href="#" class="navigator__link">.init()</a>
+                </li>
+                <li class="navigator__element">
+                    <a href="https://github.com/ACJean" target="_blank" class="navigator__link">
+                        <img src="resources/images/github_icon.svg" alt="github" width="32" height="32">
+                    </a>
+                </li>
+                <li class="navigator__element">
+                    <a href="https://www.linkedin.com/in/jean-alava-89313426b/" target="_blank" class="navigator__link">
+                        <img src="resources/images/linkedin_icon.svg" alt="linkedin" width="32" height="32">
+                    </a>
+                </li>
             </ul>
         </nav>
-    </aside>
-    <main class="main container center">
-        <section class="main__section">
-            <article class="main__article">
-                <div class="main__header">
-                    <h3 class="main__title text-align--center">Últimos Posts</h3>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="card__header row">
-                            <a href="#" class="card__title-no-records">No hay registros</a>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section class="main__section">
-            <article class="main__article">
-                <div class="main__header">
-                    <h1 class="main__title text-align--center">Conocimientos</h1>
-                </div>
-                <div class="card-knowledge-group">
-                    <div class="card-knowledge-group__content">
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Lenguajes</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>Java</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>C#</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>SQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>C++</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>JavaScript</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>LUA</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Frameworks</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>Spring</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>.NET</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>React</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Bases de Datos</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>MSSQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>MySQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>PostgreSQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Redis</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>SQLite</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Bases de Datos</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>MSSQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>MySQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>PostgreSQL</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Redis</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>SQLite</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Editores</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>NetBeans</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Visual Studio</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>VS Code</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>JetBrains IDEs</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Neovim</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Neovim</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Neovim</p>
-                                </span>
+    </header>
+    <main class="content">
+        <section>
+            <ul class="milestones">
+                <li class="milestones__element">
+                    <article>
+                        <h1 class="title">janc<span class="funtion-color">.dev()</span></h1>
+                        <h4 class="subtitle">Jean Alava</h4>
+                        <p class="description">Software developer.</p>
+                    </article>
+                </li>
+                <li class="milestones__element">
+                    <article>
+                        <h3>proficiencies<span class="funtion-color">.show()</span></h3>
+                        <div class="card-knowledge-group">
+                            <div class="card-knowledge-group__content">
+                                <div class="card-knowledge">
+                                    <div class="card-knowledge__header">
+                                        <h4 class="title">Lenguajes</h4>
+                                    </div>
+                                    <div class="card-knowledge__body">
+                                        <span class="bagde bagde--granular">
+                                            <p>Java</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>C#</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>SQL</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>C++</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>JavaScript</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>LUA</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-knowledge">
+                                    <div class="card-knowledge__header">
+                                        <h4 class="title">Frameworks</h4>
+                                    </div>
+                                    <div class="card-knowledge__body">
+                                        <span class="bagde bagde--granular">
+                                            <p>Spring</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>.NET</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>React</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-knowledge">
+                                    <div class="card-knowledge__header">
+                                        <h4 class="title">Bases de Datos</h4>
+                                    </div>
+                                    <div class="card-knowledge__body">
+                                        <span class="bagde bagde--granular">
+                                            <p>MSSQL</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>MySQL</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>PostgreSQL</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Redis</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>SQLite</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-knowledge">
+                                    <div class="card-knowledge__header">
+                                        <h4 class="title">Editores</h4>
+                                    </div>
+                                    <div class="card-knowledge__body">
+                                        <span class="bagde bagde--granular">
+                                            <p>NetBeans</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Visual Studio</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>VS Code</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>JetBrains IDEs</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Neovim</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Neovim</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Neovim</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-knowledge">
+                                    <div class="card-knowledge__header">
+                                        <h4 class="title">Herramientas y Servicios</h4>
+                                    </div>
+                                    <div class="card-knowledge__body">
+                                        <span class="bagde bagde--granular">
+                                            <p>Git</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>GitHub</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>GitLab</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Azure DevOps</p>
+                                        </span>
+                                        <span class="bagde bagde--granular">
+                                            <p>Docker</p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-knowledge">
-                            <div class="card-knowledge__header">
-                                <h4 class="title">Herramientas y Servicios</h4>
-                            </div>
-                            <div class="card-knowledge__body">
-                                <span class="bagde bagde--granular">
-                                    <p>Git</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>GitHub</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>GitLab</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Azure DevOps</p>
-                                </span>
-                                <span class="bagde bagde--granular">
-                                    <p>Docker</p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section class="main__section">
-            <article class="main__article">
-                <div class="main__header">
-                    <h1 class="main__title text-align--center">Links</h1>
-                </div>
-                <div class="grid grid--links justify-items--stretch">
-                    <div class="card">
-                        <a href="https://github.com/ACJean" class="card__title-link" target="_blank">
-                            <div class="card__header card__header--link">
-                                <img src="resources/images/github_icon.svg" alt="github">
-                                <h4>GitHub</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="https://www.linkedin.com/in/jean-alava-89313426b/" class="card__title-link" target="_blank">
-                            <div class="card__header card__header--link">
-                                <img src="resources/images/linkedin_icon.svg" alt="github">
-                                <h4>Linkedin</h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </article>
+                    </article>
+                </li>
+                <li class="milestones__element">
+                    <article>
+                        <h3>posts<span class="funtion-color">.show()</span></h3>
+                        <p class="description">En construcción...</p>
+                    </article>
+                </li>
+                <li class="milestones__element">
+                    <article>
+                        <h3>projects<span class="funtion-color">.show()</span></h3>
+                        <p class="description">En construcción...</p>
+                    </article>
+                </li>
+              </ul>
         </section>
     </main>
-    <footer class="footer">
-        <p>&copy; 2023 Janc. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
